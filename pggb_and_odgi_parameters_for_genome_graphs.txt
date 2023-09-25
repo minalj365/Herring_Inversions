@@ -1,0 +1,10 @@
+pggb parameters:
+Chr6: -p 95 -s 50000
+Chr12: -p 95 -s 20000
+Chr17: -p 90 -s 50000
+Chr23: -p 90 -s 50000
+
+odgi commands:
+odgi build -g smooth.gfa -o smooth.og
+odgi prune -T -i smooth.og -o prune.og
+odgi viz -z -i prune.og -o prune.png

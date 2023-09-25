@@ -1,0 +1,6 @@
+parameters for nucmer for Fig. 3 - sprat vs herring
+
+Chr6: c180l50
+Chr12: c180l40
+Chr17: c150l40
+Chr23: c150l40

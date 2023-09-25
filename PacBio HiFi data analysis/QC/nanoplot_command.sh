@@ -1,0 +1,1 @@
+~/miniconda3/bin/NanoPlot -t 8 -o /data1/CluHar/PacBio/Celtic_Sea_CCS_data/QC/NanoPlot/CCS/ -p CS4 --N50 --title "CS4 CCS" --fastq /data1/CluHar/PacBio/Celtic_Sea_CCS_data/XBDAM.20200629.PACBIO_DATA.Part_1_of_3/CS4_testes/PACBIO_DATA/XBDAM_20200616_S64018_PL100156976-1_A01.ccs.fastq.gz &
