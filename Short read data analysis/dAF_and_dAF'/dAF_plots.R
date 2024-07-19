@@ -173,7 +173,8 @@ ggsave("dAF.png", width = 8, height = 8)
 
 
 # dAF_inv plot
-dAF_inv_plot <- ggplot(dAF_inv, aes(x=pos, y=dAF_prime, color=dAF_prime)) +
+mid=0.5
+dAF_inv_plot <- ggplot(dAF_inv, aes(x=pos, y=dAF, color=dAF_prime)) +
   geom_point(alpha =  0.3)+
   #scale_color_gradient2(midpoint=mid, low="blue", mid="yellow", high="red", name = "dAF'") +
   scale_color_gradient2(midpoint=mid, high="steelblue2", low="tomato3", mid="gold", name = "dAF'") +
@@ -188,10 +189,21 @@ dAF_inv_plot <- ggplot(dAF_inv, aes(x=pos, y=dAF_prime, color=dAF_prime)) +
                                       `chr23` = "Chromosome 23"))) +
   scale_x_continuous(labels = function(x)round(x/1000000, 2)) +
   labs(x = "Position on the reference assembly (Mb)",
-       y = "dAF'") +
+       y = "dAF") +
   theme(strip.background = element_blank(),
-        strip.text.x = element_text(face = "bold", size = 10),
+        strip.text.x = element_text(face = "bold", size = 7),
         panel.background = element_blank(),
-        axis.line = element_line(colour = "grey"))
-ggsave("dAF_prime_inv.pdf", width = 8, height = 8)
-ggsave("dAF_prime_inv.png", width = 8, height = 8)
+        axis.line = element_line(colour = "grey"),
+        axis.text.x = element_text(size = 7),
+        axis.text.y = element_text(size = 7),
+        axis.title.x = element_text(size = 7),
+        axis.title.y = element_text(size = 7),
+        legend.text = element_text(size = 7),
+        legend.title = element_text(size = 7),)
+ggsave("dAF_prime_inv.pdf", width = 7.08, height = 7.28)
+ggsave("dAF_prime_inv.png", width = 7.08, height = 7.28)
+
+ggsave("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Manuscript_prep/Revisions_2/All_figures/Fig.8_dAF_prime_inv.pdf", width = 7.08, height = 7.28)
+ggsave("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Manuscript_prep/Revisions_2/All_figures/Fig.8_dAF_prime_inv.png", width = 7.08, height = 7.28)
+
+
