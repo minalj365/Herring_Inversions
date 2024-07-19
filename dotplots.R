@@ -12,7 +12,7 @@ my_thm= list( theme_bw(base_size = 7),
                     plot.title = element_text(hjust = 0.5, face = "bold", size=7)))
 
 
-################ Fig .1 - inverted duplications in Chr12 and  17 #############
+################ Fig. 1 - inverted duplications in Chr12 and  17 #############
 
 dotplot <- function(chr){
   #chr <- paste0(chr)
@@ -53,7 +53,7 @@ ggsave("chr17.pdf", chr17, width = 3.5, height = 3)
 
 
 
-################ Fig4 - alignment of sprat and herring scaffolds to determine ancestral haplotype #############
+################ Fig. 4 - alignment of sprat and herring scaffolds to determine ancestral haplotype #############
 setwd("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Manuscript_prep/Revisions/Figures/ancestry_mplotter")
 
 dotplot <- function(chr){
@@ -88,7 +88,7 @@ ggsave("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Manus
 ggsave("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Manuscript_prep/Revisions_2/All_figures/Fig.4_sprat.pdf", plot, width = 3.46, height = 4.2)
 
                        
-################ Suppl. Fig .3 - alignment of N and S alleles for all four inversions #############
+################ Supplementary Fig .3 - alignment of N and S alleles for all four inversions #############
 setwd("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Writing/Figures/dotplots/one_to_one")
 
   dotplot <- function(chr){
@@ -123,7 +123,7 @@ ggsave("one_to_one.pdf", plot, width = 8, height = 3)
 
 
 
-################ Suppl. Fig. 4 - N allele aligned against S alleles from all samples #############
+################ Supplementary Fig. 4 - N allele aligned against S alleles from all samples #############
 setwd("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/Writing/Figures/dotplots/one_to_many/against_N")
   
 dotplot <- function(chr){
@@ -160,7 +160,7 @@ ggsave("one_to_many_N.pdf", plot, width = 8, height = 8)
 
 
 
-################ Suppl. Fig. 1 - heterozygosity of BS5 for chr17 inversion and BS2 for Chr23 inversion #############
+################ Supplementary Fig. 1 - heterozygosity of BS5 for chr17 inversion and BS2 for Chr23 inversion #############
 setwd("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/dotplot_figures/mplotter/heterozygosity/")
  
   dotplot <- function(chr){
@@ -221,7 +221,7 @@ ggsave("chr17_high_Fst.pdf", myplot, width = 4, height = 3)
 
 
                        
-############### Suppl. Fig. 15 chr6 inversion scaffold from BS3_hap1 and BS3_hap2 ############
+############### Supplementary Fig. 15 - Chr6 inversion scaffold from BS3_hap1 and BS3_hap2 ############
 
 setwd("C:/Users/minal03/OneDrive - Texas A&M University/U-Drive/Inversion/dotplot_figures/mplotter/chr6_suppl/")
 
