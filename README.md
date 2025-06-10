@@ -3,7 +3,7 @@
 This repository contains all scripts, datasets, and analysis pipelines used in our study:
 
 **The origin and maintenance of supergenes contributing to ecological adaptation in Atlantic herring**  
-*Minal Jamsandekar, Mariana S. Ferreira, Eric D. Farrell, Brian W. Davis, Leif Andersson*  
+*Minal Jamsandekar, Mafalda S. Ferreira, Mats E. Pettersson, Edward D. Farrell, Brian W. Davis, Leif Andersson*  
 Published in **Nature Communications** (2024)  
 [🔗 Read the paper](https://www.nature.com/articles/s41467-024-53079-7)
 
